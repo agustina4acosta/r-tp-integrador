@@ -1,0 +1,58 @@
+---
+title: "Trabajo Práctico Integrador"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+knitr::opts_chunk$set(echo = TRUE)
+
+meteoritos <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-06-11/meteorites.csv")
+
+
+```
+
+La base de datos `meteoritos` contiene información de impactos de meteoritos y su fuente es la NASA. Incluye información sobre más de 45.000 meteoritos, incluyendo su nombre, ubicación, masa y año de impacto. 
+
+### **Parte 1**
+
+**Pregunta:** ¿Cuál es la distribución geográfica de los meteoritos y donde cayeron los más pesados? 
+
+
+**Introducción:** *Tu introducción va aqui*
+
+**Enfoque:** *Tu forma de resolución va aquí*
+
+**Analisis:**
+
+
+```{r}
+# Tu código de R va aquí
+```
+
+```{r}
+# Tu código de R va aquí
+```
+
+
+**Discusión:** *Tu discusión de los resultados va aquí.*
+
+### **Parte 2**
+
+**Pregunta:** *Tu pregunta va a aquí*
+
+**Introducción:** *Tu introducción va aqui*
+
+**Enfoque:** *Tu forma de resolución va aquí*
+
+**Analisis:**
+
+```{r }
+# Tu código de R va aquí
+```
+
+```{r }
+# Tu código de R va aquí
+```
+
+**Discusión:** *Tu discusión de los resultados va aquí.*
